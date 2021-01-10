@@ -13,4 +13,4 @@ with open("submission_3.txt","r") as graph:
         line = graph.readline().strip()
 g.attr(overlap='false')
 g.view()
-g.render("Overlapgraph", 'png')
+# g.render("Overlapgraph", 'png')
