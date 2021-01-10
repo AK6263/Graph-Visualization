@@ -1,0 +1,5 @@
+digraph sample {
+	rankdir=LR size="8,5"
+	node [shape=circle]
+	TOYOT -> YOTA [label=3]
+}
