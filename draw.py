@@ -9,8 +9,8 @@ with open("submission_3.txt","r") as graph:
     line = graph.readline().strip()
     while line != "":
         nodes = line.split(",")
-        g.edge(nodes[0],nodes[1],label = nodes[2])
+        g.edge(nodes[0][-4:],nodes[1][-4:],label = nodes[2])
         line = graph.readline().strip()
 g.attr(overlap='false')
 g.view()
-# g.render("Overlapgraph_3", 'png')
+g.render("Overlapgraph", 'png')
