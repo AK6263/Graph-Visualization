@@ -13,7 +13,9 @@ Some outputs:
 
 ![circular_graph/coordinates.gv.png](circular_graph/coordinates.gv.png)
 
-The code for representing nodes in circular fashion is in the firectory "circular graph". 
+The code for representing nodes in circular fashion is in the directory "circular graph". 
+
+In the future I need to make a animation for showing the genome assembly.
 
 
 <!-- references -->
